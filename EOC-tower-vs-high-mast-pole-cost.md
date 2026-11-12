@@ -14,7 +14,7 @@
 
 If the pole is **new** (not already on site), buy a **communications tilt-over or light lattice**, not a high-mast lighting pole.
 
-A lighting pole **without luminaires and without a raising/lowering mechanism** is usually **as expensive or more expensive** to install than an antenna tower, and it is worse for 5.8 GHz work: it cannot be climbed, cannot be tilted, and is not designed for two 30 dBi dishes.
+A lighting pole **without luminaires and without a raising/lowering mechanism** is usually **as expensive or more expensive** to install than an antenna tower, and it is worse for 5.8 GHz work: it cannot be tilted, is not designed for two 30 dBi dishes, and is not climbable unless you add **climbing pegs plus an OSHA cable-grab system** (see below). That access package still does not match a tilt-over for dish aiming.
 
 ---
 
@@ -39,14 +39,20 @@ The EOC is an **essential facility**. Size steel and foundation for ASCE 7 Risk 
 | Foundation | $2,000–$5,000 | $6,000–$12,000 |
 | Set / crane | $0–$2,500 | $2,500–$6,000 |
 | Dish arm / mounts | $400–$1,000 | $800–$2,000 |
-| PE stamp + FAA 7460-1 | $1,500–$3,000 | $1,500–$3,000 |
-| **Installed total** | **~$12,000–$26,000** | **~$19,000–$39,000** |
-| Each later alignment | Tilt down; work on the ground | Bucket truck **$800–$1,500** |
+| Climbing pegs (factory steps / bosses) | Included in tilt-over (no climb) | **$800–$4,000** |
+| OSHA safety-climb cable + grab | Not required | **$400–$1,200** hardware |
+| Climbing harness / sleeve | Not required | **$325–$500** |
+| Peg + cable install labor | $0 | **$500–$2,000** |
+| PE stamp + FAA 7460-1 | $1,500–$3,000 | $1,500–$3,000 (+ climber live-load on the pole) |
+| **Installed total (no climb kit)** | **~$12,000–$26,000** | **~$19,000–$39,000** |
+| **Installed total (with climb kit)** | **~$12,000–$26,000** | **~$22,000–$46,000** |
+| Each later alignment | Tilt down; work on the ground | Qualified climber, or bucket **$800–$1,500** |
 
 **Typical midpoint for budgeting**
 
 - Antenna tower: **~$18,000** installed  
-- Lighting pole (bare): **~$28,000** installed  
+- Lighting pole (bare, not climbable): **~$28,000** installed  
+- Lighting pole **with climbing pegs and safety climb**: **~$32,000** installed  
 
 ---
 
@@ -75,24 +81,48 @@ Stripping lights and the winch saves roughly **$3,000–$8,000** (ring/winch) pl
 
 ---
 
+## Climbing pegs on a high-mast lighting pole
+
+A stock lighting shaft has **no rungs**. Pegs are an extra, and pegs alone are **not** OSHA-complete above 24 ft. You need a **cable-grab (safety climb)** as well.
+
+| Item | What it is | Approx. cost |
+|---|---|---|
+| Climbing pegs / step bolts (hardware) | Staggered galvanized steps, ~12–18 in spacing, ~50–70 pieces on an 80 ft pole | **$800–$2,500** (about $15–$65 each; e.g. Railok-style step bolt ~$22; APEX pole step ~$66) |
+| Factory steps / lugs on a **new** pole | OEM climbing rungs or welded/tapped bosses (Valmont and others offer this on heavy-duty masts) | **$1,500–$4,000** as a pole option (preferred over field-drilling) |
+| Rohn step-bolt kit (SBDEP) | Small kit for embed poles — **not** a full 80 ft set | $131 (3Star Inc.) |
+| Safety-climb cable, 80–100 ft | OSHA/ANSI cable, top/bottom brackets | **$391–$765** (Allfasteners 80 ft $390.60 / 100 ft $422.35; Rohn TT100TSP $765) |
+| Rope grab / sleeve | Travels the cable | **$210–$440** |
+| Climbing harness | One-person, 310 lb class | **$325–$498** |
+| Field install of pegs + cable | Qualified rigger; do **not** drill a galvanized shaft without PE | **$500–$2,000** |
+| **Climb package subtotal** | Pegs + cable + grab + labor | **$2,500–$7,000** |
+
+**Notes**
+
+- Order pegs **factory-installed** on a new pole. Field-drilling holes in a tapered lighting shaft cuts capacity, breaks galvanizing, and often voids the warranty unless the PE designs it.
+- Adding a climber (live load) can force a **heavier shaft and foundation**, which is not in the peg hardware price.
+- Pegs do not replace a tilt-over. Aligning two 5.8 GHz dishes still means a trained climber in fall arrest, not ARES staff on the ground.
+- If the county will not staff a qualified climber, budget a bucket truck anyway and skip the pegs.
+
+---
+
 ## Why the lighting pole is not the cheap option
 
 1. **The expensive work stays.** Foundation + crane + thick tapered steel dominate the bill. Lights and the lowering ring are the parts you would delete, and they are not most of the installed cost.
 2. **EOC wind rating.** A lighting catalog pole is often Risk Category II. An EOC comms structure is typically **III**. The PE will upsize the shaft and foundation, which erases leftover savings.
 3. **Wrong top.** A lighting tenon is useless for two RocketDish mounts. You still buy a custom cross-arm.
-4. **Cannot climb, cannot tilt.** Standard high-mast lighting poles are smooth tapered shafts. Service is a bucket truck, not rungs or a tilt-over.
-5. **5.8 GHz needs access.** Dish alignment is iterative. A few lift visits cost more than the difference between the two structures.
+4. **Cannot climb unless you pay extra; still cannot tilt.** A bare lighting shaft is a smooth taper. Climbing pegs plus a safety-climb cable add **~$2,500–$7,000** and a climber-load PE check. Service is still not “tilt it down in the yard.”
+5. **5.8 GHz needs access.** Dish alignment is iterative. A few lift or climb visits cost more than the difference between the two structures.
 
 ---
 
 ## Lifetime / operations
 
-| | Antenna tilt-over | Lighting pole (fixed) |
-|---|---|---|
-| Climbable | Not required; tilts to the ground | Generally **no** |
-| Align 5.8 GHz dishes | On the ground | Bucket truck |
-| Cost per alignment | ~$0 extra (ARES / county staff) | $800–$1,500 |
-| Three alignments over the first year | ~$0 | ~$2,400–$4,500 |
+| | Antenna tilt-over | Lighting pole, no pegs | Lighting pole **with pegs + safety climb** |
+|---|---|---|---|
+| Climbable | Not required; tilts to the ground | **No** | Yes, qualified climber only |
+| Align 5.8 GHz dishes | On the ground | Bucket truck | Climb or bucket |
+| Cost per alignment | ~$0 extra (ARES / county staff) | $800–$1,500 | Climber time, or $800–$1,500 lift |
+| Three alignments over the first year | ~$0 | ~$2,400–$4,500 | Similar unless county has a climber on staff |
 
 ---
 
@@ -126,6 +156,7 @@ If county standards require a **steel monopole** appearance, specify a **communi
 - Aluma T-75HN / T-100HN: Jo Gunn / Aluma (quote; T-75HN new ~$13k cited Sep 2025)
 - High-mast pole-only vs installed system ranges: industry lighting-pole guides (fixed shaft vs raising-lowering); US municipal tapered-steel practice
 - Monopole foundation / crane order-of-magnitude: typical 80–100 ft tubular install ranges
+- Climbing pegs / safety climb: 3Star Inc. Rohn SBDEP $131, TT100TSP $765 (2026); Allfasteners pole-mount safety climb 80 ft $390.60 / 100 ft $422.35; Railok step bolt ~$22; APEX pole step ~$66; Valmont heavy-duty masts list climbing rungs as a factory option (quote)
 - Dish height and bearings: Houston County AREDN 5.8 GHz backbone design (EOC 32.52204°N, 83.68923°W)
 
 Radios, dishes, PoE, switch, and UPS are **not** in this comparison; they are in `Houston-County-AREDN-BOM.csv`.
