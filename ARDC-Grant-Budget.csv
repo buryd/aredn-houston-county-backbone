@@ -1,0 +1,39 @@
+Category,Line_item,Qty,Unit_USD,Ext_USD,Vendor_or_source,Notes
+Supplies and equipment,Ubiquiti Rocket 5AC Lite International (R5AC-LITE),6,135,810,Streakwave / WISP,One radio per dish; AREDN-stable 128 MB; refuse US-lock SKU
+Supplies and equipment,Spare Rocket 5AC Lite International,2,135,270,Streakwave / WISP,Cold spare at EOC
+Supplies and equipment,Ubiquiti RocketDish 30 dBi lightweight (RD-5G30-LW),6,109,654,Streakwave,5.1–5.9 GHz 2x2 MIMO
+Supplies and equipment,IsoBeam 620 radome (ISO-BEAM-620),6,69,414,Streakwave,Ice / wind / noise
+Supplies and equipment,MikroTik hAP ac3 International,3,99,297,MikroTik / Multi-Link,Indoor DtD hub and LAN node
+Supplies and equipment,Spare hAP ac3 International,1,99,99,MikroTik / Multi-Link,Cold spare at EOC
+Supplies and equipment,Netgear GS108Tv3 managed switch,3,84,252,CDW / Amazon,VLAN 2 Device-to-Device
+Supplies and equipment,Ubiquiti ETH-SP-G2 gigabit surge,12,16,192,Streakwave / B&H,Radio end and building entry
+Supplies and equipment,Spare 24 V gigabit passive PoE injector,6,18,108,Streakwave,Radios ship with injectors
+Supplies and equipment,Outdoor shielded Cat6 1000 ft,1,185,185,TrueCable,Bond drain to ground
+Supplies and equipment,Indoor Cat6 kits (3 sites),3,18,54,Graybar,hAP / switch / Pi / UPS
+Supplies and equipment,Shielded RJ45 plugs boots crimp kit,1,45,45,TrueCable,
+Supplies and equipment,APC Back-UPS Pro 1500VA sine-wave,3,280,840,CDW,Radios + switch + hAP + Pi
+Supplies and equipment,PDU / heavy power strip,3,25,75,Amazon,Radio closet
+Supplies and equipment,8 ft copper-clad ground rod,6,28,168,Graybar,Two rods per site
+Supplies and equipment,#6 AWG bare copper 100 ft,1,85,85,Graybar,
+Supplies and equipment,Ground bars clamps lugs,1,90,90,Graybar / DX Engineering,Bond to building electrode
+Supplies and equipment,EOC 80 ft AGL tilt-over communications mast,1,3200,3200,Aluma / Heights / WiFi-Texas,Not a lighting pole
+Supplies and equipment,Hospital roof mast / wall-arm kit,2,425,850,Tessco / Talley,15–20 ft above parapet; helipad-clear
+Supplies and equipment,NEMA outdoor junction boxes,6,28,168,Grainger,ETH-SP and drip loops
+Supplies and equipment,Cable entry / weatherhead kits,3,45,135,Grainger / Tessco,
+Supplies and equipment,Stainless hardware UV ties butyl,1,95,95,Tessco,
+Supplies and equipment,Raspberry Pi 5 8GB kit,3,95,285,Adafruit,MeshChat / file drop host
+Supplies and equipment,Labels grease tape ferrules,1,150,150,Graybar,Node names and cable IDs
+Supplies and equipment,Georgia tax and freight ~8%,1,762,762,,Round up for shipping and tax
+Personnel (contractor),Licensed rigger / installer 3 sites,3,2800,8400,TBD licensed contractor,Hospital roofs + EOC mast; OSHA fall protection
+Personnel (contractor),Electrician grounding and bonding 3 sites,3,650,1950,County or licensed electrician,NEC bond to building electrode
+Other,On-site path walk and dish alignment day,1,800,800,ARES or contractor,May be volunteer if roof access granted
+Indirect / contingency,Contingency and indirect 15%,1,3215,3215,,Under ARDC 20% cap; roof fees steel shipping
+TOTAL REQUESTED FROM ARDC,Turnkey three-site AREDN backbone,1,24648,24648,,Hardware + tax + professional labor + 15% contingency
+,,,,,
+IN-KIND not billed,ARES volunteer labor ~300 hours,300,25,7500,Houston County ARES,Path survey firmware config training drills
+IN-KIND not billed,EMA radio-room space power drills,1,2000,2000,Houston County EMA,
+IN-KIND not billed,Hospital roof access and escort,2,800,1600,Emory / Houston Healthcare,
+OTHER FUNDERS,None committed — ARDC is sole cash funder,0,0,0,,County and hospitals provide access only
+NOT IN BUDGET,Lobbying,0,0,0,,Not requested
+NOT IN BUDGET,Optional 400 W solar at EOC,0,0,0,,Out of grant scope unless funds remain
+NOT IN BUDGET,Phase 2 911 / Carl Vinson spoke,0,0,0,,Future; not this grant
