@@ -1,0 +1,39 @@
+Category,Item,SKU,Qty,Unit_USD,Ext_USD,Source,Notes
+RF radios,"Ubiquiti Rocket 5AC Lite, International (not -US)",R5AC-LITE,6,135,810,Streakwave / WISP distributor,One radio per dish; AREDN stable 128MB
+RF radios,"Spare Rocket 5AC Lite, International",R5AC-LITE,2,135,270,Streakwave / WISP distributor,Cold spare at EOC
+Antennas,Ubiquiti RocketDish 30 dBi lightweight,RD-5G30-LW,6,109,654,Streakwave,5.1-5.9 GHz 2x2 MIMO
+Antennas,IsoBeam 620 radome,ISO-BEAM-620,6,69,414,Streakwave,Ice/wind/noise rejection
+Indoor nodes,"MikroTik hAP ac3, International",RBD53iG-5HacD2HnD,3,99,297,MikroTik / Multi-Link,DtD hub and LAN node
+Indoor nodes,"Spare hAP ac3, International",RBD53iG-5HacD2HnD,1,99,99,MikroTik / Multi-Link,Cold spare at EOC
+Switching,Netgear 8-port Gigabit Smart switch,GS108Tv3,3,84,252,Micro Center / Amazon / CDW,VLAN 2 DtD
+Protection,Gigabit Ethernet surge protector,ETH-SP-G2,12,16,192,B&H / Streakwave,Radio end and building entry
+Power,Spare 24V gigabit passive PoE injector,POE-24-12W-G,6,18,108,Streakwave,Radios ship with injectors; these are spares
+Cabling,"Outdoor shielded Cat6, 1000 ft spool",Cat6-STP-OUT-1000,1,185,185,TrueCable / Amazon,Bond drain wire to ground
+Cabling,Indoor Cat6 patch/run kit per site,Cat6-IN,3,18,54,Amazon / Graybar,hAP switch Pi UPS
+Cabling,"Shielded RJ45 plugs, boots, crimp kit",RJ45-STP-KIT,1,45,45,TrueCable,Pass-through shielded plugs
+Power,APC Back-UPS Pro 1500VA sine-wave,BR1500MS,3,280,840,Amazon / CDW,Radios + switch + hAP + Pi
+Power,Rack/shelf PDU or heavy power strip,PDU-6,3,25,75,Amazon,Radio closet
+Grounding,8 ft copper-clad ground rod,ROD-8,6,28,168,Home Depot / Graybar,Two rods per site
+Grounding,"#6 AWG bare copper, 100 ft",AWG6-100,1,85,85,Graybar / Home Depot,Mast dish ETH-SP entrance
+Grounding,"Ground bars, acorn clamps, lugs",GND-HW,1,90,90,DX Engineering / Graybar,Bond to building electrode
+Mounting,EOC 80 ft AGL tilt-over or light lattice,MAST-80-TO,1,3200,3200,Aluma / WiFi-Texas / Heights,Antenna centerline 80 ft AGL; 1-story EMA cannot use a roof pipe
+Mounting,Hospital roof mast / wall-arm kit,ROOF-MAST-20,2,425,850,Ventev / Tessco / Talley,15-20 ft above parapet; helipad-clear
+Mounting,NEMA outdoor junction boxes,NEMA-4X,6,28,168,Grainger,ETH-SP and drip loops
+Mounting,Cable entry / weatherhead kits,ENTRY-KIT,3,45,135,Grainger / Tessco,No membrane penetrate without facilities
+Mounting,"Stainless hardware, hose clamps, UV ties, butyl",HW-KIT,1,95,95,Home Depot / Tessco,Weather kit
+Services host,Raspberry Pi 5 8GB + case + SD,RPi5-8,3,95,285,Adafruit / Amazon,MeshChat file drop optional Winlink
+Consumables,"Labels, dielectric grease, tape, ferrules",CONSUMABLE,1,150,150,Amazon / Graybar,Node names and cable IDs
+,,,,,,,,
+SUMMARY,Hardware subtotal,,1,9521,9521,,Street prices Aug 2026; includes 80 ft EOC mast
+SUMMARY,Estimated GA tax + freight 8%,,1,762,762,,Verify actual tax and shipping
+SUMMARY,Licensed roof/rigger install 3 sites,,3,2800,8400,Contractor,Fall protection hospital escort alignment
+SUMMARY,Electrician grounding and bonding 3 sites,,3,650,1950,County electrician,NEC / facility electrode
+SUMMARY,On-site path walk + dish alignment day,,1,800,800,ARES or contractor,Can be volunteer if roof access granted
+SUMMARY,Contingency 15% of hardware+tax+labor,,1,3215,3215,,
+SUMMARY,TURNKEY PROJECT TOTAL,,1,24648,24648,,Hardware + tax + labor + contingency
+,,,,,,,,
+OPTIONAL,EOC 400W solar + 200Ah LiFePO4,,1,1450,1450,Renogy / Battle Born,Grid-down endurance at hub
+OPTIONAL,Phase 2 911 Carl Vinson 5.8 GHz spoke,,1,1850,1850,Same RF vendors,200 Carl Vinson Pkwy
+OPTIONAL,LOS fallback Bonaire water tank relay,,1,2500,2500,County utilities MOU,217 Old Perry Rd Bonaire
+OPTIONAL,2.4 GHz local omni portable access 3 sites,,1,270,270,MikroTik SXTsq Lite2 or mANTBox 2,Not required for backbone
+OPTIONAL,Value alt: 6x MikroTik LHG XL 5 ac Intl instead of Rocket+dish+radome,RBLHGG-5acD-XL,6,117,702,MikroTik International only,Saves ~$1176 vs Rocket path; not preferred
